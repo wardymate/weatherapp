@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  box-sizing: border-box;
+  background-color:#eef2f3;
+  font-family: 'Montserrat', sans-serif;
+  color: #9b9b9b;
+  padding-top: 3em;
+}
+
+main {
+  background-color:#ffffff;
+  width: 25em;
+  height: 10em;
+  margin: 0 auto 0 auto;
+  padding: .8em;
+}
+
+h1 {
+  font-size: 1.75em;
+  margin: 0;
+  text-align: center;
+}
+
+.icon {
+  height: 100%;
+  width: 10em;
+  float: left;
+  background-size: cover;
+}
+
+.sunny {
+  background-color: orange;
+  background-image: url(../images/sunny.svg);
+}
+
+.snow {
+  background-color: orange;
+  background-image: url(../images/snow.svg);
+}
+
+.snow.svg {
+  fill: white;
+}
+.icon svg {
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 6px 3px #dfdfdf;
+     -moz-box-shadow: 0px 0px 6px 3px #dfdfdf;
+          box-shadow: 0px 0px 6px 3px #dfdfdf;
+}
